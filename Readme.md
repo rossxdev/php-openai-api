@@ -1,4 +1,4 @@
-# PHP-OpenAI-API-Curl
+# PHP-OpenAI-API
 
 A lightweight PHP script utilizing cURL to interact with the OpenAI API, enabling developers to integrate GPT-powered conversational agents without dependencies.
 
@@ -13,7 +13,7 @@ A lightweight PHP script utilizing cURL to interact with the OpenAI API, enablin
 Use Git to clone the repository directly to your local machine.
 
 ```sh
-git clone https://github.com/yourusername/PHP-OpenAI-API-Curl.git
+git clone https://github.com/rossxdev/PHP-OpenAI-API.git
 ```
 
 #### 2. Download the Code
