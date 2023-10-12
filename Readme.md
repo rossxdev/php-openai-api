@@ -17,7 +17,7 @@ git clone https://github.com/yourusername/PHP-OpenAI-API-Curl.git
 ```
 
 #### 2. Download the Code
-Navigate to the [repository](https://github.com/yourusername/PHP-OpenAI-API-Curl) and use the "Code" button to download a zip file of the project, which you can then extract to your local machine.
+Navigate to the [repository](https://github.com/rossxdev/PHP-OpenAI-API) and use the "Code" button to download a zip file of the project, which you can then extract to your local machine.
 
 #### 3. Copy and Paste
 Simply navigate to the PHP file in the GitHub repository, view the raw code, and copy/paste it into a new file in your own development environment.
