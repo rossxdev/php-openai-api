@@ -1,7 +1,5 @@
 <?php
-
-$api_key = "your-api-key-here";
-$endpoint = "https://api.openai.com/v1/chat/completions";
+$env = parse_ini_file('.env');
 
 $data = json_encode([
     'model' => 'gpt-3.5-turbo',
@@ -12,12 +10,12 @@ $data = json_encode([
 ]);
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, $endpoint);
+curl_setopt($ch, CURLOPT_URL, $env["OPEN_AI_ENDPOINT"]);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'Authorization: Bearer ' . $api_key,
+    'Authorization: Bearer ' . $env["OPEN_AI_API_KEY"],
     'Content-Type: application/json'
 ));
 
